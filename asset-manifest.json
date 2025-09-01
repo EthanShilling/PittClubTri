@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/%3CPittClubTri%3E/static/css/main.1deb4181.css",
+    "main.js": "/%3CPittClubTri%3E/static/js/main.1e94e04f.js",
+    "static/js/453.2348bce0.chunk.js": "/%3CPittClubTri%3E/static/js/453.2348bce0.chunk.js",
+    "static/media/newlogo.png": "/%3CPittClubTri%3E/static/media/newlogo.fbd19cedcda4d7e0679a.png",
+    "static/media/fire.png": "/%3CPittClubTri%3E/static/media/fire.8b70f515c2eb63d466a1.png",
+    "static/media/ice.png": "/%3CPittClubTri%3E/static/media/ice.4adaedd586f73d91d346.png",
+    "static/media/pittsburgh.png": "/%3CPittClubTri%3E/static/media/pittsburgh.e8ddb04a16ba0f02a4a8.png",
+    "static/media/grouppic2.jpeg": "/%3CPittClubTri%3E/static/media/grouppic2.b758411163baaec551fa.jpeg",
+    "static/media/grouppic1.jpeg": "/%3CPittClubTri%3E/static/media/grouppic1.276bcfc6d1afbcbbba09.jpeg",
+    "static/media/pittlogo.png": "/%3CPittClubTri%3E/static/media/pittlogo.06e7006a40dee3d30032.png",
+    "static/media/gels.png": "/%3CPittClubTri%3E/static/media/gels.76969114d64fe433babd.png",
+    "static/media/grouppic3.jpeg": "/%3CPittClubTri%3E/static/media/grouppic3.1b6918ed223f809149eb.jpeg",
+    "static/media/instagramLogo.png": "/%3CPittClubTri%3E/static/media/instagramLogo.ebb886fd6443295f4bd6.png",
+    "static/media/qr.jpeg": "/%3CPittClubTri%3E/static/media/qr.e16deaf216da1f84737b.jpeg",
+    "static/media/groupmeLogo.png": "/%3CPittClubTri%3E/static/media/groupmeLogo.dd2c72c6b064690b3b3c.png",
+    "static/media/donuts.png": "/%3CPittClubTri%3E/static/media/donuts.76846318168978394073.png",
+    "static/media/facebookLogo.png": "/%3CPittClubTri%3E/static/media/facebookLogo.ab9be1d4ab1391a05533.png",
+    "static/media/running.png": "/%3CPittClubTri%3E/static/media/running.10e8f0a94b83f9c0754d.png",
+    "static/media/stravaLogo.png": "/%3CPittClubTri%3E/static/media/stravaLogo.7c3e15c400d5f250850d.png",
+    "index.html": "/%3CPittClubTri%3E/index.html",
+    "main.1deb4181.css.map": "/%3CPittClubTri%3E/static/css/main.1deb4181.css.map",
+    "main.1e94e04f.js.map": "/%3CPittClubTri%3E/static/js/main.1e94e04f.js.map",
+    "453.2348bce0.chunk.js.map": "/%3CPittClubTri%3E/static/js/453.2348bce0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1deb4181.css",
+    "static/js/main.1e94e04f.js"
+  ]
+}
