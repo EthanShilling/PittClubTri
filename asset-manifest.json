@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PittClubTri/static/css/main.4dd42622.css",
-    "main.js": "/PittClubTri/static/js/main.f1d08339.js",
+    "main.js": "/PittClubTri/static/js/main.8bf482f5.js",
     "static/js/453.2348bce0.chunk.js": "/PittClubTri/static/js/453.2348bce0.chunk.js",
     "static/media/newlogo.png": "/PittClubTri/static/media/newlogo.fbd19cedcda4d7e0679a.png",
     "static/media/fire.png": "/PittClubTri/static/media/fire.8b70f515c2eb63d466a1.png",
@@ -21,11 +21,11 @@
     "static/media/stravaLogo.png": "/PittClubTri/static/media/stravaLogo.7c3e15c400d5f250850d.png",
     "index.html": "/PittClubTri/index.html",
     "main.4dd42622.css.map": "/PittClubTri/static/css/main.4dd42622.css.map",
-    "main.f1d08339.js.map": "/PittClubTri/static/js/main.f1d08339.js.map",
+    "main.8bf482f5.js.map": "/PittClubTri/static/js/main.8bf482f5.js.map",
     "453.2348bce0.chunk.js.map": "/PittClubTri/static/js/453.2348bce0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4dd42622.css",
-    "static/js/main.f1d08339.js"
+    "static/js/main.8bf482f5.js"
   ]
 }
