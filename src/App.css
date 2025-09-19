@@ -1,0 +1,511 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka One', sans-serif;
+  background-color: rgb(0, 53, 148); /* fallback */
+}
+
+.side-panel{
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 184, 28);
+}
+
+.app {
+  text-align: right;
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.9); /* main content box */
+  border-radius: 12px;
+  height: 288rem;
+}
+
+
+html, body, #root {
+  height: 100%;
+  margin: 0;   /* removes the little gap at the bottom */
+}
+.left-panel {
+  position: fixed;
+  top: 0;
+  left: 0;           /* always start at left edge of window */
+  height: 100%;
+  width: calc(40% - 450px);
+
+}
+
+.right-panel {
+  position: fixed;
+  top: 0;
+  left: calc(60% + 450px); 
+  width: calc(50% - 450px); /* extends to right edge of window */
+  height: 100%;
+}
+.right-panel img{
+   transform: translateX(-70px);
+}
+
+.side-panel img {
+  width: 160px;  /* adjust logo size */
+  margin: 10px 0;
+}
+
+.email-info{
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+@media (max-width: 1000px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One', sans-serif;
+    background-color: rgba(255, 255, 255, 0.9); /* fallback */
+  }
+  .app {
+    max-width: 100%;     
+    margin: 0 auto;      
+    padding: 20px;
+
+    height: 318rem;
+  }
+  .side-panel img {
+    display: none;
+  }
+}
+
+.bottom-panel h2{
+  margin-top: 5px;
+}
+
+@media (max-width: 600px) { /* phone screen */
+  .app {
+    max-width: 100%;     
+    margin: 0 auto;      
+    padding: 20px;
+
+    transform: translateX(5px); /* shift right */
+    height: 366rem;
+  }
+  .email-info{
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    margin-top: -30px;
+  }
+
+  .progress-bar-vertical{
+    position: relative;
+    margin-top: -80px;
+    left: -90px;
+    width: 100px;
+    height: 2000px; 
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 20px solid rgb(0, 53, 148); 
+    box-shadow: 
+    0 0 20px rgba(200, 53, 148, 0.8),
+    0 0 600px rgba(202, 147, 9, 0.6),
+    0 0 100px rgba(222, 65, 9, 0.4);
+
+    transform: translateX(100px); /* shift right */
+  }
+
+  .bottom-logos {
+    display: flex;
+    justify-content: center;  
+    gap: 60px;                
+    margin-top: 6.5rem;
+
+    transform: translateY(-55px); /* shift up */
+    scale: 70%; /* make smaller */
+  }
+
+  .progress-text img{
+    display:none;
+  }
+  .bottom-panel h2{
+    margin-top: 5px;
+    font-size: 20px;
+  }
+}
+
+.bottom-panel {
+  position: fixed;
+  min-height: 110px;  
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border: 5px solid rgb(255, 184, 28);
+  background-color:rgba(20, 20, 20, 1);
+  text-align: center;
+  color: rgb(255, 184, 28);
+  z-index: 2;
+}
+.bottom_milestone-description {
+  margin-top: 0.3rem;
+  color: white;
+  text-align: center;
+}
+
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+.page-header h1{
+  text-align: center;
+  font-size: 3.8rem;
+  margin-bottom: 16px;
+  font-family: 'Fredoka One', sans-serif;
+  font-weight: 700;
+  color: rgb(0, 53, 148);
+  text-shadow:
+    -4px -4px 0 rgb(255, 255, 255),
+     4px -4px 0 rgb(255, 255, 255),
+    -4px  4px 0 rgb(255, 255, 255),
+     4px  4px 0 rgb(255, 255, 255); 
+}
+.page-header h2{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 16px;
+  font-family: 'Fredoka One', sans-serif;
+  font-weight: 700;
+}
+
+.page-header .subtitle {
+  text-align: center;
+  margin: -15px 0 50px;
+  font-size: 2rem;
+  color: rgb(255, 184, 28);
+}
+
+.totals {
+  text-align: center;
+  color: rgb(165, 148, 100);
+  margin: 60px;
+  font-weight: 600;
+  font-size: 3.1rem;
+  border: 20px solid rgb(2, 29, 82);
+  box-shadow: 
+  0 20px 40px rgba(255, 184, 28),
+  0 -20px 40px rgba(255, 184, 28);
+}
+.challenges-header{
+  margin-top: -5px;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 600;
+}
+.pbar-header{
+  margin-bottom: -5px;
+  text-align: left;
+  transform: translateY(-40px);
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.main-desc {
+  text-align: center;
+  border: 10px solid rgb(167, 189, 232);
+  outline: 6px solid rgb(255, 0, 0); 
+  outline-offset: 0px;   
+  margin-bottom: 20px;
+}
+.main-desc h3{
+  font-family: Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+
+}
+
+
+.venmo {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1.75rem 0; /* add breathing room */
+}
+
+.venmo h5 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.venmo img {
+  max-width: 200px;   /* scales down automatically */
+  width: 100%;        /* responsive inside container */
+  height: auto;
+  display: block;
+  margin: 1rem auto;  /* centers the QR code */
+  border: 20px solid rgb(255, 184, 28);
+  outline: 8px solid rgb(0, 53, 148);
+  outline-offset: -20px;
+  box-shadow: 0 0 0 5px rgb(0, 53, 148);
+}
+
+
+.progress-section {
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+
+
+/* Vertical progress bar container */
+.progress-bar-vertical{
+  position: relative;
+  margin-top: -80px;
+  left: -90px;
+  width: 100px;
+  height: 2000px; /* longer bar for 17 milestones */
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+  border: 20px solid rgb(0, 53, 148); /* dark blue border */
+  box-shadow: 
+  0 0 20px rgba(200, 53, 148, 0.8),
+  0 0 600px rgba(202, 147, 9, 0.6),
+  0 0 100px rgba(222, 65, 9, 0.4);
+}
+
+/* Fill of the bar */
+.progress-fill-vertical {
+  width: 100%;
+  background: rgb(205, 184, 125);
+  transition: height 0.5s;
+}
+
+/* Milestone markers */
+.milestone-marker {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+/* Milestone text on the right */
+.progress-text {
+  position: relative;
+  margin-left: 45px;
+  width: 500px;
+  height: 1990px; /* match progress bar height */
+}
+
+.milestone-wrapper {
+  position: absolute;
+  left: -50px;        /* stick to left */
+  width: 100%;    /* optional, matches container */
+}
+
+.milestone-label {
+  font-size: 30px;
+  font-weight: 350;
+  margin: 0;
+  padding-left: 0;       
+  text-align: left;     
+}
+
+.milestone-description {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin: 0;
+  text-align: left;
+  padding-left: 20px;
+}
+@media (max-width: 1000px) {
+  .milestone-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin: 10px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .milestone-label {
+    font-size: 17px;
+    font-weight: 350;
+    margin: 13px;
+    padding-left: 0;       
+    text-align: left;
+  }
+ 
+}
+
+.progress-text img{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: -170px;
+}
+
+/* Description*/
+.who-are-we {
+  transform: translateY(90px);
+  text-align: center;
+  border: 20px solid rgb(255, 184, 28);
+  background-color: rgba(92, 230, 145, 0.8);
+}
+
+.who-are-we h1{
+  font-size: 3rem;
+}
+.who-are-we h2{
+  font-size: 1.75rem;
+}
+.who-are-we h3{
+  font-family: Tahoma, sans-serif;
+  font-weight: 300;
+}
+.who-are-we h4{
+  font-family: Tahoma, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 150;
+  margin-left: 100px;
+}
+
+.officers {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  gap: 25px; /* spacing between boxes */
+}
+.officer h4 {
+  margin: 0;
+}
+
+.role {
+  font-weight: bold;
+  display: block;
+  margin-top: 4px;
+}
+
+
+.bottom-logos {
+  display: flex;
+  justify-content: center;  /* center logos horizontally */
+  gap: 60px;                /* space between logos */
+  margin-top: 6.5rem;
+}
+
+.bottom-logos img {
+  width: 90px;              /* size of logos */
+  height: 90px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.bottom-logos img:hover {
+  transform: scale(1.2);    /* slightly enlarge on hover */
+}
+
+.bottom-info{
+  text-align: center;
+  font-size: 2rem;
+  transform: translateY(80px);
+}
+
+
+.group-pics {
+  display: flex;               /* makes children line up in a row */
+  justify-content: center;     /* centers the row horizontally */
+  gap: 50px;                   /* space between images */
+  margin: 2rem 0;              /* optional vertical spacing from other content */
+}
+.group-pics img {
+  width: 250px;                
+  height: 200px;                
+  border-radius: 8px;         
+}
+.group-pics img:nth-child(2) {
+  width: 150px; /* smaller than the others */
+}
+
+@media (max-width: 600px) {
+  .group-pics {
+    display: flex;               /* makes children line up in a row */
+    justify-content: center;     /* centers the row horizontally */
+    gap: 5px;                   /* space between images */
+    margin: 2rem 0;              /* optional vertical spacing from other content */
+  }
+    .group-pics img {
+    width: 130px;                
+    height: 140px;                
+    border-radius: 8px;         
+  }
+  .group-pics img:nth-child(2) {
+    width: 100px; /* smaller than the others */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+.progress-cathedral {
+  position: relative;
+  width: 200px;
+  height: 1000px; 
+  left: -200px;
+  overflow: visible; 
+}
+
+
+.cathedral-black {
+  filter: brightness(0);
+  position: absolute;
+  transform: scaleX(2.3) scaleY(3.4); 
+  transform-origin: bottom; 
+  top: 650px;
+  z-index: 0;
+
+}
+
+
+.cathedral-fill {
+  position: absolute;
+  transform: scaleX(2.3) scaleY(3.4); 
+  transform-origin: bottom; 
+  top: 650px;
+  z-index: 1;
+  
+  
+
+}
+*/
