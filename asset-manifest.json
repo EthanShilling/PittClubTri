@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PittClubTri/static/css/main.0b5cf261.css",
-    "main.js": "/PittClubTri/static/js/main.74bf1e8f.js",
+    "main.js": "/PittClubTri/static/js/main.904111f9.js",
     "static/js/453.2348bce0.chunk.js": "/PittClubTri/static/js/453.2348bce0.chunk.js",
     "static/media/newlogo.png": "/PittClubTri/static/media/newlogo.fbd19cedcda4d7e0679a.png",
     "static/media/fire.png": "/PittClubTri/static/media/fire.8b70f515c2eb63d466a1.png",
@@ -12,20 +12,22 @@
     "static/media/pittlogo.png": "/PittClubTri/static/media/pittlogo.06e7006a40dee3d30032.png",
     "static/media/gels.png": "/PittClubTri/static/media/gels.76969114d64fe433babd.png",
     "static/media/grouppic3.jpeg": "/PittClubTri/static/media/grouppic3.1b6918ed223f809149eb.jpeg",
+    "static/media/wetsuit.png": "/PittClubTri/static/media/wetsuit.4cb21a0bb292ccfbc470.png",
     "static/media/instagramLogo.png": "/PittClubTri/static/media/instagramLogo.ebb886fd6443295f4bd6.png",
     "static/media/qr.jpeg": "/PittClubTri/static/media/qr.e16deaf216da1f84737b.jpeg",
     "static/media/groupmeLogo.png": "/PittClubTri/static/media/groupmeLogo.dd2c72c6b064690b3b3c.png",
     "static/media/donuts.png": "/PittClubTri/static/media/donuts.76846318168978394073.png",
     "static/media/facebookLogo.png": "/PittClubTri/static/media/facebookLogo.ab9be1d4ab1391a05533.png",
     "static/media/running.png": "/PittClubTri/static/media/running.10e8f0a94b83f9c0754d.png",
+    "static/media/amongus.png": "/PittClubTri/static/media/amongus.cd6674f4d8bd9897f98a.png",
     "static/media/stravaLogo.png": "/PittClubTri/static/media/stravaLogo.7c3e15c400d5f250850d.png",
     "index.html": "/PittClubTri/index.html",
     "main.0b5cf261.css.map": "/PittClubTri/static/css/main.0b5cf261.css.map",
-    "main.74bf1e8f.js.map": "/PittClubTri/static/js/main.74bf1e8f.js.map",
+    "main.904111f9.js.map": "/PittClubTri/static/js/main.904111f9.js.map",
     "453.2348bce0.chunk.js.map": "/PittClubTri/static/js/453.2348bce0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b5cf261.css",
-    "static/js/main.74bf1e8f.js"
+    "static/js/main.904111f9.js"
   ]
 }
